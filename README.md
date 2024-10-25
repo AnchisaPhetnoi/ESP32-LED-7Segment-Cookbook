@@ -1,4 +1,4 @@
-# ESP32-Project-Cookbook
+# ESP32-LED-7Segment-Cookbook
 
 
 1.ตัวอย่างที่นำมาใช้คือ              
