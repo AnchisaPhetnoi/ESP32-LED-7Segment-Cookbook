@@ -67,6 +67,20 @@ idf_component_register(SRCS "LED.cpp"
 
 
 ``` cpp
+#include <stdio.h>
+#include "LED.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+
+LED seg_a(16);
+LED seg_b(17);
+LED seg_c(5);
+LED seg_d(18);
+LED seg_e(19);
+LED seg_f(21);
+LED seg_g(22);
+LED digit_1(0);
+
 LED digit_2(4);
 
 void DisplayDigit(int digit, int number) {
@@ -184,19 +198,6 @@ extern "C" void app_main(void) {
         vTaskDelay(500 / portTICK_PERIOD_MS);
     }
 }
-#include <stdio.h>
-#include "LED.h"
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-
-LED seg_a(16);
-LED seg_b(17);
-LED seg_c(5);
-LED seg_d(18);
-LED seg_e(19);
-LED seg_f(21);
-LED seg_g(22);
-LED digit_1(0);
 
 ```
 
