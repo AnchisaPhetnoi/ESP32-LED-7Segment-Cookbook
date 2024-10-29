@@ -17,6 +17,8 @@
 
 ![image](https://github.com/user-attachments/assets/8d85c099-d95d-4f96-9f9e-7dcafcc423be)
 
+![image](https://github.com/user-attachments/assets/9d0c907d-00cf-4af0-8b97-06b01f91cb0e)
+
 
 1.2 add idf_component.yml ใน Main component
 
