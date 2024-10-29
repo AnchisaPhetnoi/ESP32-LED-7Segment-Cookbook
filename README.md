@@ -50,6 +50,8 @@ idf_component_register(SRCS "LED.cpp"
                     INCLUDE_DIRS "include"
                     REQUIRES driver) 
 ```
+![image](https://github.com/user-attachments/assets/036a4da8-f191-4262-9e11-2e8344523037)
+
 
 1.6 ใน main.cpp เปลี่ยน code เป็นดังนี้
 
@@ -203,8 +205,7 @@ extern "C" void app_main(void) {
 
 Build และทดสอบบนบอร์ด ESP32
 
-ผลลัพน์คือ
-
+ผลลัพน์คือ การแสดงผลลัพน์แบบ เป็นตัวเลขรหัสนักศึกษา 65030289 โดยจะขึ้นเลขบน 7 segment อันเดียว 
 
 วิดิโอประกอบ
 
@@ -300,8 +301,8 @@ extern "C" void app_main(void) {
 
 Build และทดสอบบนบอร์ด ESP32
 
+ผลลัพน์คือ การแสดงผลลัพน์แบบ เป็นตัวเลข 65 20 30 28 09  โดยจะขึ้นเลขบน 7 segment 2 อัน
 
-ผลลัพน์คือ
 
 วิดิโอประกอบ
 
