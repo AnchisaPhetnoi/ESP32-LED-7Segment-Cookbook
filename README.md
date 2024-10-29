@@ -36,7 +36,11 @@ dependencies:
 ```
 
 
+1.4 เปลี่ยนชื่อ main.c เป็น main.cpp
 
+1.5 ใน CMakeLists.txt เปลี่ยนชื่อ main.c เป็น main.cpp
+
+1.7 ใน main.cpp เปลี่ยน code เป็นดังนี้
 
 
 
