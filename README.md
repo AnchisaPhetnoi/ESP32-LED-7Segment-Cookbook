@@ -212,6 +212,11 @@ Build และทดสอบบนบอร์ด ESP32
 https://youtube.com/shorts/lmihPiIfB3Y?si=fabW9DkRx47s8Y8Y
 
 
+![image](https://github.com/user-attachments/assets/ffe7524a-d8df-4507-928b-eae2f382327e)
+
+
+
+
 1.7 ใน main.cpp เปลี่ยน code เป็นดังนี้
 
 ![image](https://github.com/user-attachments/assets/f2a04ce0-82d2-4b71-9cb3-9bfacfdf40ef)
@@ -308,6 +313,8 @@ Build และทดสอบบนบอร์ด ESP32
 วิดิโอประกอบ
 
 https://youtube.com/shorts/i8tQPHt9fEY?si=yuONHi8VAd6OgQdI
+
+![image](https://github.com/user-attachments/assets/4d13871e-ad14-496c-8cc8-f9347abd473c)
 
 
 สรุปผล: จากทำงานของโปรแกรมทั้งสองตัวอย่างโดยแสดง บน 7 segment ที่มีการแสดงที่แตกต่างกัน จะเห็นได้ว่าในส่วนของ main.cpp มีการกำหนดให้แสดงค่าที่ต่างกันออกไป และมีการกำหนดคำสั่งที่ต่างกันออกไป โดยดู จากโค้ดที่ใช้ในการกำหนดการทำงาน ในส่วนแรก code ใน main.cpp อันแรก จะมีการกำหนด   int sequence[] = {6, 5, 2, 0, 3, 0, 2, 8, 9}; และ  switch (number) จะกำหนดเป็นตัวเลข โดยรวมในส่วนนี้จะเป็นการกำหนดให้เลข ขึ้นเป็นรหัสนักศึกษา โดย กำหนดว่าให้แสดงบน 7 segment อันเดียว ต่อมา เป็นการแก้ไขใน main.cpp โดยกำหนดให้    int sequence[][2] = {{6, 5}, {2, 0}, {3, 0}, {2, 8}, {0, 9}}; โดยจะขึ้นบน  7 segment 2 อันด้วยกัน จากการทำงานทั้งหมดเราจะเห็นว่า 7 segment ทำงานได้ตามคำสั่งที่ต้องการ 
