@@ -310,6 +310,9 @@ Build และทดสอบบนบอร์ด ESP32
 สรุปผล: 
 
 
-ลิงค์ Project ที่ทำบน VS code :
+ลิงค์ Project ที่ทำบน VS code : https://github.com/AnchisaPhetnoi/esp-segment.git
+
+
+![image](https://github.com/user-attachments/assets/9fab46a5-369d-4a36-a784-bc48fd7cd151)
 
 
